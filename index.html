@@ -15,16 +15,15 @@
 <body>
 <!-- Main container -->
 <div class="container">
-    <div class="row">
-    <div class="col mt-5 d-grid gap-2 d-md-flex justify-content-md-end">
-        <!-- Button to open a new movie modal -->
-        <button class="btn btn-outline-primary" onclick="openNewMovieModal()">New Movie</button>
-    </div>
-    </div>
+    <div class="row"
     <div class="row">
     <div class="col">
         <!-- Table to display movies -->
         <nav class="navbar bg-body-tertiary">
+            <div class="col mt-5 d-grid gap-2 d-md-flex justify-content-md-end">
+                <!-- Button to open a new movie modal -->
+                <button class="btn btn-outline-primary" onclick="openNewMovieModal()">New Movie</button>
+            </div>
         <div class="container-fluid">
             <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchTerm">
@@ -197,7 +196,7 @@
 <!-- JavaScript code -->
 <script>
     // API URL for CRUD operations
-    const url = "https://crudcrud.com/api/49cc206069764a5baa44c9229b242895";
+    const url = "https://647eff7bc246f166da8fdb07.mockapi.io";
 
 
     // Function to get genres from API or localStorage
